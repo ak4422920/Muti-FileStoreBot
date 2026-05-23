@@ -23,7 +23,7 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153"))
 
 # MongoDB connection URI
 MONGO_URI = os.environ.get("MONGO_URI", "")
-MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "cantarellabots")
+MONGO_DB_NAME = os.environ.get("MONGO_DB_NAME", "storebot")
 DB_URI = MONGO_URI    # Alias for old bot.py
 DB_NAME = MONGO_DB_NAME # Alias for old bot.py
 
@@ -34,7 +34,7 @@ CHANNEL_ID = 0
 MAIN_LOG_CHANNEL = int(os.environ.get("MAIN_LOG_CHANNEL", ""))
 
 # Force-subscribe channel for the main bot (username without @)
-FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "cantarellabots") 
+FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "AkMovieVerse") 
 
 # =============================================================================
 # ENCRYPTION — Used to secure bot tokens in the database
@@ -86,7 +86,7 @@ FORCE_PIC = os.environ.get(
 )
 
 START_MSG = """<b>━━━━━━━━━━━━━━━━━━━━━
-⚡ 𝗖𝗔𝗡𝗧𝗔𝗥𝗘𝗟𝗟𝗔 𝗙𝗜𝗟𝗘𝗦𝗧𝗢𝗥𝗘 ⚡
+⚡ 𝗙𝗜𝗟𝗘𝗦𝗧𝗢𝗥𝗘 ⚡
 ━━━━━━━━━━━━━━━━━━━━━</b>
 
 <blockquote>ᴡᴇʟᴄᴏᴍᴇ, {mention}!
@@ -138,7 +138,7 @@ ABOUT_MSG = """<b>━━━━━━━━━━━━━━━━━━━━�
 ℹ️ 𝗔𝗕𝗢𝗨𝗧
 ━━━━━━━━━━━━━━━━━━━━━</b>
 
-<blockquote><b>⚡ ᴄᴀɴᴛᴀʀᴇʟʟ ꜰɪʟᴇsᴛᴏʀᴇ ᴠ3.0</b>
+<blockquote><b>⚡ ꜰɪʟᴇsᴛᴏʀᴇ ᴠ3.0</b>
 
 ᴀ ᴘʀᴇᴍɪᴜᴍ ᴍᴜʟᴛɪ-ᴜsᴇʀ ᴛᴇʟᴇɢʀᴀᴍ
 ꜰɪʟᴇsᴛᴏʀᴇ ᴘʟᴀᴛꜰᴏʀᴍ.
@@ -153,7 +153,7 @@ ABOUT_MSG = """<b>━━━━━━━━━━━━━━━━━━━━�
 │ ◈ ᴀᴜᴛᴏ-ʜɪʙᴇʀɴᴀᴛɪᴏɴ
 ╰──────────────────╯
 
-<b>ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ</b> @cantarellabots</blockquote>"""
+<b>ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ</b> @AkMovieVerse</blockquote>"""
 
 FORCE_MSG = """<b>━━━━━━━━━━━━━━━━━━━━━
 🔒 𝗔𝗖𝗖𝗘𝗦𝗦 𝗥𝗘𝗦𝗧𝗥𝗜𝗖𝗧𝗘𝗗
