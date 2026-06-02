@@ -19,7 +19,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 TG_BOT_TOKEN = BOT_TOKEN # Alias for backward compatibility
 #@cantarellabots
 # Owner's Telegram user ID (numeric)
-OWNER_ID = int(os.environ.get("OWNER_ID", "5756495153"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "8252482448"))
 
 # MongoDB connection URI
 MONGO_URI = os.environ.get("MONGO_URI", "")
